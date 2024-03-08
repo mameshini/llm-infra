@@ -1,0 +1,18 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+    
+        {
+            "name": "Python: Streamlit",
+            "type": "python",
+            "request": "launch",
+            "module": "streamlit",
+            "args": [
+                "run",
+                "1_🏠_Home.py"
+            ],
+            "console": "integratedTerminal",
+            "justMyCode": false
+        }
+    ]
+}

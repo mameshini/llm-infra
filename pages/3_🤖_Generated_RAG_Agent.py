@@ -14,13 +14,13 @@ import pandas as pd
 
 
 st.set_page_config(
-    page_title="Generated RAG Agent",
+    page_title="Chatbot",
     page_icon="🦙",
     layout="centered",
     initial_sidebar_state="auto",
     menu_items=None,
 )
-st.title("Generated RAG Agent")
+st.title("Chatbot")
 
 current_state = get_current_state()
 add_sidebar()

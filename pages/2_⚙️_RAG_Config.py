@@ -72,9 +72,12 @@ st.set_page_config(
 )
 st.title("RAG Pipeline Config")
 
-current_state = get_current_state()
-add_sidebar()
+try:
+    current_state = get_current_state()
+except Exception as e:
+    print(f"Failed to load state with error: {e}. Skipping...")
 
+add_sidebar()
 
 if current_state.agent_builder is not None:
 

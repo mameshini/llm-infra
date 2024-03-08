@@ -23,6 +23,8 @@ llama-hub = "0.0.44"
 langchain = "0.0.305"
 pypdf = "3.17.1"
 clip = { git = "https://github.com/openai/CLIP.git" }
+anthropic = "^0.18.1"
+watchdog = "^4.0.0"
 
 [tool.poetry.dev-dependencies]
 # pytest = "7.2.1"
