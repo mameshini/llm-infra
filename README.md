@@ -58,12 +58,6 @@ Currently the set of parameters is as follows:
 
 If you manually change parameters, you can press the "Update Agent" button in order to update the agent.
 
-```{tip}
-If you don't see the `Update Agent` button, that's because you haven't created the agent yet. Please go to the previous "Home" page and complete the setup process.
-```
-
-We can always add more parameters to make this more "advanced" 🛠️, but thought this would be a good place to start.
-
 ### 3. Generated RAG Agent
 
 Once your RAG agent is created, you have access to this page.
